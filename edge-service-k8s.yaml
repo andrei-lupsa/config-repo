@@ -1,0 +1,5 @@
+spring:
+  data:
+    redis:
+      host: polar-redis
+      port: 6379
