@@ -7,6 +7,12 @@ spring:
     user: ${spring.r2dbc.username}
     password: ${spring.r2dbc.password}
     url: jdbc:postgresql://polar-postgres:5432/polardb_order
+  rabbitmq:
+    host: polar-rabbitmq
+    port: 5672
+    username: user
+    password: password
+    connection-timeout: 5s
 
 polar:
   catalog-service-uri: http://catalog-service
