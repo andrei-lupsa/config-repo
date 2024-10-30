@@ -15,4 +15,4 @@ spring:
     connection-timeout: 5s
 
 polar:
-  catalog-service-uri: http://catalog-service:9001
+  catalog-service-uri: http://catalog-service
