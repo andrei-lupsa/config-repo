@@ -1,11 +1,4 @@
 spring:
-  cloud:
-    gateway:
-      routes:
-        - id: catalog-route
-          uri: http://catalog-service:9001/books
-        - id: order-route
-          uri: http://order-service:9002/orders
   data:
     redis:
       host: polar-redis
