@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://polar-postgres:5432/polardb_catalog
